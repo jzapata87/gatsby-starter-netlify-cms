@@ -1,1 +1,2 @@
-/test/* 200! Role=products
+/products/* 200! Role=products
+/products/ /about 404
