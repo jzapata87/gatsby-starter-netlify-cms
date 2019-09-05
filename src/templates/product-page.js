@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import { Helmet } from 'react-helmet'
 
 export const ProductPageTemplate = ({
   image,
@@ -19,6 +20,10 @@ export const ProductPageTemplate = ({
   pricing,
 }) => (
   <div className="content">
+    <Helmet>
+      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    </Helmet>
     <div
       className="full-width-image-container margin-top-0"
       style={{
@@ -101,6 +106,7 @@ export const ProductPageTemplate = ({
         </div>
       </div>
     </section>
+    <div data-netlify-identity-button>Login with Netlify Identity</div>
   </div>
 )
 
