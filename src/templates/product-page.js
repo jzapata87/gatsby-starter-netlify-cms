@@ -21,7 +21,7 @@ export const ProductPageTemplate = ({
 }) => (
   <div className="content">
 
-    <div data-netlify-identity-menu></div>
+
     <div
       className="full-width-image-container margin-top-0"
       style={{
@@ -104,7 +104,7 @@ export const ProductPageTemplate = ({
         </div>
       </div>
     </section>
-    <div data-netlify-identity-button>Login with Netlify Identity</div>
+
   </div>
 )
 
