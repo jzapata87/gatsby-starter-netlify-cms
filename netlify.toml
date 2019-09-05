@@ -6,7 +6,7 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[redirects]]
-  from = "/products"
-  to = "/about"
+  from = "https://angry-bell-06ca03.netlify.com/products"
+  to = "https://angry-bell-06ca03.netlify.com/about"
   status = 301
   force = false
