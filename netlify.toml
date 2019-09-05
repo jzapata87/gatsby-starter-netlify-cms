@@ -9,4 +9,4 @@
   from = "https://angry-bell-06ca03.netlify.com/products"
   to = "https://angry-bell-06ca03.netlify.com/about"
   status = 301
-  force = false
+  force = true
